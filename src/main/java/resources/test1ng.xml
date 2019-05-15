@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <listeners>
+        <listener class-name="Academy.listeners"/>
+        <listener class-name="resources.ExtentTestNGIReporterListener">
+        </listener>
+
+    </listeners>
+    <test name="validateTitle" >
+        <classes>
+            <class name="Academy.validateTitle" />
+        </classes>
+    </test>
+</suite>

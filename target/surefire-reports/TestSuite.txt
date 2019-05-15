@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.716 s <<< FAILURE! - in TestSuite
+validateTitle(Academy.validateTitle)  Time elapsed: 0.029 s  <<< FAILURE!
+java.lang.AssertionError: expected [1111Madison Island] but found [Madison Island]
+	at Academy.validateTitle.validateTitle(validateTitle.java:41)
+
